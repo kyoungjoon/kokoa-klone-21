@@ -1,0 +1,56 @@
+.nav {
+    background-color: #F9F9FA;
+    padding:30px 70px;
+    border-top:1px solid rgba(0, 0, 0, 0.2);
+    position:absolute;
+    box-sizing: border-box;
+    width:100%;
+    bottom:0;
+}
+
+.nav__list {
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    position:relative;
+}
+
+.message__count {
+    background-color: red;
+    font-size:15px;
+    color:white;
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    left:20px;
+    bottom:10px;
+}
+
+@keyframes notificationAnimation {
+    0% {
+      transform: none;
+    }
+    50% {
+      transform: translateY(-5px) rotateY(360deg);
+    }
+    100% {
+      transform: none;
+    }
+  }
+  
+.more__notificaticon {
+    background-color:red;
+    width:10px;
+    height:10px;
+    border-radius: 5px;
+    position:absolute;
+    left:30px;
+    bottom:30px;
+    animation:notificationAnimation 2s ease-in-out infinite;
+}

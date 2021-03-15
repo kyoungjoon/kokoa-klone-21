@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import "reset.css";
+@import "variables.css";
+
+
+/* Comp */
+@import "comp/status-bar.css";
+@import "comp/nav-bar.css";
+@import "comp/Header-bar.css";
+@import "comp/user-comp.css";
+@import "comp/Header-bar__sm.css";
+@import "comp/header-second.css";
+
+
+/* Screens */
+@import "screens/welcome.css";
+@import "screens/find.css";
+@import "screens/chats.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}

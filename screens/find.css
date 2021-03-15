@@ -1,0 +1,126 @@
+
+.Header-bar__icons__circle {
+    position:relative;
+}
+
+#circle__sm {
+    position:absolute;
+    width:10px;
+    height:10px;
+    background-color:red;
+    border-radius: 50%;
+    right:-5px;
+    bottom:40px;
+}
+
+.find-icons {
+    display:flex;
+    justify-content: space-between;
+    padding:50px 30px;
+}
+
+.find-column {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-column i {
+    margin-bottom:40px;
+}
+
+.find-column__text {
+    font-size:20px;
+    font-weight: 600;
+}
+
+.recommended-friends {
+    margin: 10px 30px 30px 30px;
+    border-top:1px solid rgba(0,0,0,0.5);
+}
+
+.recommended-friends h4 {
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.recommended-friends__text {
+    color: rgba(0,0,0,0.5);
+}
+
+.recommended-friends__lg {
+    text-align: center;
+    font-size:25px;
+    margin-top:100px;
+    font-weight: 600;
+}
+
+.openchat-header {
+    display:flex;
+    justify-content: space-between;
+    margin:100px 30px 30px 30px;
+    border-top:1px solid rgba(0,0,0,0.5);
+    color: rgba(0,0,0,0.5);
+}
+
+.openchat-header span {
+    margin-top:30px;
+    font-weight:600;
+}
+
+.openchat-header__go_to_home i {
+    margin-left:10px;
+}
+
+.openchat-footer {
+    margin:0 30px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.openchat-column {
+    display:flex;
+flex-direction: column;
+}
+
+.openchat-column__title {
+    font-size:20px;
+    font-weight:600;
+}
+
+.openchat-column__hashtags {
+    margin: 10px 0;
+    color:rgba(0,0,0,0.5);
+}
+
+#openchat-column__pic__sm {
+    width:30px;
+    height:30px;
+    border-radius: 10px;
+    margin-right:5px;
+}
+.openchat-column__member {
+    display:flex;
+    align-items: center;
+}
+
+#openchat-column__pic__lg {
+    width:120px;
+    height:120px;
+    border-radius: 10px;
+}
+
+.openchat-column__member h6 {
+    color:rgba(0,0,0,0.5);
+}
+
+.openchat-column__member .divider {
+width:1px;
+height:20px;
+background-color:rgba(0,0,0,0.3);
+margin:0 5px;
+}
+
+.openchat-column__member h5 {
+    color:salmon
+}

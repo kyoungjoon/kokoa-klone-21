@@ -1,0 +1,29 @@
+.Header-bar__second {
+    display:flex;
+    justify-content: space-between;
+    padding:30px;
+    font-size:25px;
+    align-items: center;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.Header-bar__column {
+    width:33%;
+}
+
+.Header-bar__column:last-child {
+    display:flex;
+    margin-left:auto;
+    justify-content: flex-end;
+}
+
+.Header-bar__column:nth-child(2) {
+    text-align:center;
+}
+
+.status-bar2 {
+    padding:0 5px;
+    box-sizing: border-box;
+
+}

@@ -1,0 +1,132 @@
+#chat-screen {
+    background-color: #FFDFDE;
+    height: 11000vh;
+  }
+  
+  #chat-screen .Header-bar__second,
+  #chat-screen .status-bar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #FFDFDE;
+    box-sizing: border-box;
+  }
+  
+  #chat-screen .status-bar {
+    z-index: 2;
+  }
+  
+  #chat-screen .Header-bar__second {
+    top: 10px;
+    z-index: 1;
+  }
+  
+.chat__time {
+    color:white;
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px;
+    border-radius:20px;
+  }
+
+.main-chat {
+    margin-top: 120px;
+    display:flex;
+    justify-content: center;
+}
+
+.message-row {
+    width: 100%;
+    display: flex;
+    margin: 25px 0;
+  }
+  
+  .message-row img {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+    margin: 0 20px;
+  }
+  
+  .message__author {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .message__info {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .message__box {
+    background-color: white;
+    padding: 13px;
+    font-size: 18px;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    margin-right: 5px;
+  }
+  
+  .message__time,
+  .message__author {
+    opacity: 0.8;
+    font-size: 14px;
+  }
+
+  .message-row__my_message {
+      justify-content: flex-end;
+  }
+
+  .message-row__my_message .message__box {
+      background-color: yellow;
+      border-radius: 15px;
+      border-top-right-radius: 0;
+      margin-left:5px;
+  }
+
+  
+.reply {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: white;
+  }
+  .reply_column1{
+      width:10%;
+  }
+
+  .reply_column2{
+      width:90%;
+      position:relative;
+  }
+
+  .reply input {
+      padding:12px;
+      width:100%;
+      border:1px solid rgba(0,0,0,0.3);
+      border-radius:18px;
+  }
+
+  .reply_column2 >i,
+  .reply_column2 button {
+      position: absolute;
+      right:-2px;
+      top:0
+  }
+
+  .reply_column2 >i{
+      right:40px;
+      top:9px;
+  }
+
+  .reply_column button {
+      background-color: yellow;
+      border:none;
+      width:34px;
+      height:34px;
+      border-radius: 50%;
+  }

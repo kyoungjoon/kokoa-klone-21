@@ -1,0 +1,81 @@
+
+.welcome__header {
+    display:flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+padding :130px 0;
+}
+
+.welcome__header span:first-child{
+    font-size:40px;
+    margin-bottom:50px;
+}
+
+.welcome__header span:last-child {
+    font-size:18px;
+    width:55%;
+    color:rgba(0,0,0,0.6)
+}
+
+.login-form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0 30px;
+}
+
+.login-form input {
+    font-size:20px;
+    border:none;
+    padding:18px 0;
+    margin-bottom:20px;
+}
+
+.login-form input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.login-form input:focus {
+    border-color:var(--green);
+}
+.login-form input:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+.login-form input[type="submit"] {
+    border-radius: 5px;
+    background-color: var(--maincolor);
+    cursor:pointer;
+}
+
+.login-form a {
+    text-align: center;
+    text-decoration: none;
+    color:inherit;
+    font-weight:600;
+}
+
+@keyframes hideSplashScreen {
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+        visibility:hidden;
+    }
+}
+
+#splash-screen {
+    background-color: var(--maincolor);
+    position:absolute;
+    height:100vh;
+    width:100vW;
+    top:0;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size:150px;
+animation:hideSplashScreen 1s ease-in-out forwards;
+animation-delay: 1s;
+}

@@ -1,0 +1,29 @@
+.user-info_icon i {
+    font-size:40px;
+}
+
+.icon__circle__father {
+    position:relative;
+}
+
+#icon__circle {
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: red;
+    position:absolute;
+    left:70px;
+    bottom:90px;
+}
+
+.More-suggestion {
+    color:black;
+    margin-bottom:-30px;
+}
+
+#more__app {
+    width:80px;
+    height:80px;
+    border-radius:10px;
+    margin-bottom:10px;
+}
